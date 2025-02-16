@@ -1,0 +1,19 @@
+[Unit]
+Description=StockBox Application
+After=network.target mongodb.service
+Requires=mongodb.service
+
+[Service]
+Type=simple
+User=%i
+WorkingDirectory=/opt/stockbox
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/npm run dev
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=stockbox
+
+[Install]
+WantedBy=multi-user.target 

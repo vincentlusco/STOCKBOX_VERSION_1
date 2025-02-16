@@ -3,9 +3,15 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const net = require('net');
 const connectDB = require('./db/connection');
+const v8 = require('v8');
+const ProcessManager = require('./utils/processManager');
 
 // Load environment variables
 dotenv.config();
+
+// Set memory limits
+v8.setFlagsFromString('--max_old_space_size=256'); // Limit heap to 256MB
+v8.setFlagsFromString('--optimize_for_size');      // Optimize for memory over speed
 
 // Function to find an available port
 const findAvailablePort = (startPort) => {
@@ -36,6 +42,15 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.send('API is running...');
 });
+
+// Add before starting the server
+global.processManager = new ProcessManager({
+  maxRestarts: 5,
+  restartDelay: 5000
+});
+
+// Add to your routes
+app.use('/monitor', require('./routes/monitorRoutes'));
 
 // Error handling middleware
 app.use((err, req, res, next) => {

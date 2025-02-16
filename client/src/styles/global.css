@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+  --terminal-green: #00FF00;
+  --terminal-black: #000000;
+}
+
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--terminal-black);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--terminal-black);
+  color: var(--terminal-green);
+  font-family: 'Share Tech Mono', monospace;
+  min-height: 100vh;
+  overflow: hidden; /* Prevent body scroll */
+}
+
+.terminal-text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.terminal-border {
+  border: 1px solid var(--terminal-green);
+  padding: 20px;
+  box-shadow: 0 0 10px var(--terminal-green);
+}
+
+.terminal-blink {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+} 
