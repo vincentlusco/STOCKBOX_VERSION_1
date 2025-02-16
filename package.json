@@ -1,0 +1,23 @@
+{
+  "name": "stockbox_version_1",
+  "version": "1.0.0",
+  "description": "Full stack application for StockBox",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "cd client && PORT=$(node -e \"console.log(require('get-port-sync')())\") npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "get-port-sync": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
