@@ -145,18 +145,21 @@ const fmpAPI = {
   // COMPANY PROFILE & QUOTES
   getQuote: async (symbol) => {
     try {
-      const response = await axios.get(`${BASE_URL}/quote/${symbol}`, {
-        params: {
-          apikey: apiKeys.fmp
-        }
-      });
-      if (!response.data || response.data.length === 0) {
-        throw new Error('No quote data found');
-      }
-      return response.data[0];
+      validateParams({ symbol }, { symbol: validationSchemas.symbol });
+
+      const response = await retryAPICall(() => 
+        rateLimitedAxios.request({
+          url: `${BASE_URL}/quote/${symbol}`,
+          method: 'GET',
+          params: {
+            apikey: apiKeys.fmp
+          }
+        })
+      );
+
+      return validateAPIResponse(response, 'FMP').data;
     } catch (error) {
-      console.error('FMP Quote Error:', error);
-      throw new Error(`Failed to fetch quote: ${error.message}`);
+      handleAPIError(error, 'FMP', 'fetch quote');
     }
   },
 

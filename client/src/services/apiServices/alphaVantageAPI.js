@@ -724,7 +724,9 @@ const alphaVantageAPI = {
       );
 
       const response = await retryAPICall(() => 
-        rateLimitedAxios.get(BASE_URL, {
+        rateLimitedAxios.request({
+          url: BASE_URL,
+          method: 'GET',
           params: {
             function: `DIGITAL_CURRENCY_${interval.toUpperCase()}`,
             symbol,
