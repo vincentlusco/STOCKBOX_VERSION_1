@@ -1,4 +1,4 @@
-// API Service Manager
+// Consolidate all API services into a single export
 const yahooFinance = require('./yahooFinance');
 const finnHub = require('./finnHub');
 const alphaVantage = require('./alphaVantage');

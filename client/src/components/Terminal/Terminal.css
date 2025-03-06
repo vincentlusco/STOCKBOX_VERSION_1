@@ -1,0 +1,132 @@
+.terminal {
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    color: #00FF00;
+    font-family: 'Share Tech Mono', monospace;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.terminal-output {
+    flex-grow: 1;
+    color: #00FF00;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.terminal-prompt {
+    margin-right: 10px;
+    color: #00FF00;
+}
+
+.terminal-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #00FF00;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 16px;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.terminal-input::placeholder {
+    color: #00FF00;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.terminal-cursor {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+.terminal-line {
+    margin: 5px 0;
+}
+
+.terminal-error {
+    color: #FF0000;
+}
+
+.terminal-content {
+    padding: 1rem;
+}
+
+.terminal-line.command {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.terminal-line.data {
+    display: flex;
+    padding-left: 1rem;
+}
+
+.terminal-line.data .key {
+    min-width: 180px;
+    color: #00ff00;
+}
+
+.terminal-line.data .value {
+    flex: 1;
+    color: #00ff00;
+}
+
+.terminal-line.separator {
+    border-bottom: 1px solid #00ff00;
+    margin: 0.5rem 0;
+}
+
+.processing {
+    color: #00FF00;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+.loading-line {
+    color: #00ff00;
+    opacity: 0.8;
+}
+
+.loading-spinner {
+    margin-left: 10px;
+    animation: spin 1s steps(10) infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: translateX(-10px);
+    }
+}
+
+.terminal-command {
+    color: #00FF00;
+    font-weight: bold;
+}
+
+.terminal-data {
+    padding-left: 1rem;
+}
+
+.terminal-data .key {
+    min-width: 180px;
+    color: #00FF00;
+}
+
+.terminal-data .value {
+    color: #00FF00;
+}
+
+.terminal-separator {
+    border-bottom: 1px solid #00FF00;
+    margin: 0.5rem 0;
+}

@@ -1,0 +1,1823 @@
+2025-02-22T13:48:51.261Z error: Failed to fetch technical data: Request failed with status code 400
+2025-02-22T13:48:51.303Z error: Failed to fetch technical data: Failed to fetch technical data for APL
+2025-02-22T13:48:56.214Z error: Failed to fetch technical data: Request failed with status code 400
+2025-02-22T13:48:56.241Z error: Failed to fetch technical data: Failed to fetch technical data for AAPL
+2025-02-22T13:48:59.577Z error: Yahoo Finance API error: Request failed with status code 401
+2025-02-22T13:48:59.579Z error: Failed to fetch fundamentals for AAPL:
+2025-02-22T13:48:59.579Z error: Failed to fetch fundamentals: Failed to fetch fundamentals
+2025-02-22T13:49:05.111Z error: Yahoo Finance API error: Request failed with status code 401
+2025-02-22T13:49:05.112Z error: Failed to fetch info for AAPL: Request failed with status code 401
+2025-02-22T13:49:05.131Z error: Failed to fetch info: Failed to fetch info
+2025-02-22T13:49:17.601Z error: Failed to fetch dividends: Request failed with status code 401
+2025-02-22T13:49:17.631Z error: Failed to fetch dividends: Failed to fetch dividend data for AAPL
+2025-02-22T14:01:16.042Z error: Yahoo Finance API error: Request failed with status code 401
+2025-02-22T14:01:16.045Z error: Failed to fetch fundamentals for TSLA:
+2025-02-22T14:01:16.046Z error: Failed to fetch fundamentals: Failed to fetch fundamentals
+2025-02-22T14:05:10.511Z error: Failed to fetch technical data: Request failed with status code 400
+2025-02-22T14:05:10.549Z error: Failed to fetch technical data: Failed to fetch technical data for FOX
+2025-02-22T14:23:28.539Z error: Yahoo Finance API error: Request failed with status code 401
+2025-02-22T14:23:28.541Z error: Failed to fetch fundamentals for GME:
+2025-02-22T14:23:28.542Z error: Failed to fetch fundamentals: Failed to fetch fundamentals
+2025-02-22T14:42:45.715Z error: Yahoo Finance API error: Request failed with status code 401
+2025-02-22T14:42:45.718Z error: Failed to fetch fundamentals for FOX: Request failed with status code 401
+2025-02-22T14:42:45.749Z error: Failed to fetch fundamentals: Request failed with status code 401
+2025-02-22T14:42:54.527Z error: Failed to fetch technical data: Request failed with status code 400
+2025-02-22T14:42:54.546Z error: Failed to fetch technical data: Failed to fetch technical data for BA
+2025-02-22T14:54:38.354Z error: Yahoo Finance API error: Request failed with status code 401
+2025-02-22T14:54:38.357Z error: Failed to fetch fundamentals for AAPL: Request failed with status code 401
+2025-02-22T14:54:38.392Z error: Failed to fetch fundamentals: Request failed with status code 401
+2025-02-22T15:19:16.198Z error: Yahoo Finance API error: Request failed with status code 401
+2025-02-22T15:19:16.201Z error: Failed to fetch fundamentals for GME: Request failed with status code 401
+2025-02-22T15:19:16.245Z error: Failed to fetch fundamentals: Request failed with status code 401
+2025-02-22T15:35:38.653Z error: Yahoo Finance API error: Request failed with status code 401
+2025-02-22T15:35:38.655Z error: Failed to fetch fundamentals for AAL: Request failed with status code 401
+2025-02-22T15:35:38.684Z error: Failed to fetch fundamentals: Failed to fetch fundamentals
+2025-02-22T15:45:05.572Z error: Yahoo Finance API error: Request failed with status code 401
+2025-02-22T15:45:05.574Z error: Failed to fetch fundamentals for GME: Request failed with status code 401
+2025-02-22T15:45:05.593Z error: Failed to fetch fundamentals: Failed to fetch fundamentals
+2025-02-22T15:53:31.400Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAL: Request failed with status code 401
+2025-02-22T15:53:31.402Z error: [getFundamentals] Error fetching fundamentals for AAL: Request failed with status code 401
+2025-02-22T15:53:31.419Z error: [getFundamentals] Error details: Request failed with status code 401
+2025-02-22T15:53:31.420Z error: [YahooRoutes] Failed to fetch fundamentals for AAL: Request failed with status code 401
+2025-02-22T16:08:37.307Z error: Failed to get crumb: Parse Error: Header overflow
+2025-02-22T16:08:37.330Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v8/finance/chart/TSLA: Failed to authenticate with Yahoo Finance
+2025-02-22T16:08:37.330Z error: Failed to fetch quote for TSLA: Failed to authenticate with Yahoo Finance
+2025-02-22T16:08:37.331Z error: Failed to fetch price: Failed to authenticate with Yahoo Finance
+2025-02-23T02:35:53.311Z error: Failed to get crumb: Parse Error: Header overflow
+2025-02-23T02:35:53.338Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v8/finance/chart/AAPL: Failed to authenticate with Yahoo Finance
+2025-02-23T02:35:53.339Z error: Failed to fetch quote for AAPL: Failed to authenticate with Yahoo Finance
+2025-02-23T02:35:53.339Z error: Failed to fetch price: Failed to authenticate with Yahoo Finance
+2025-02-23T02:36:01.075Z error: Failed to get crumb: Parse Error: Header overflow
+2025-02-23T02:36:01.150Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v8/finance/chart/AAPL: Failed to authenticate with Yahoo Finance
+2025-02-23T02:36:01.151Z error: Failed to fetch quote for AAPL: Failed to authenticate with Yahoo Finance
+2025-02-23T02:36:01.151Z error: Failed to fetch price: Failed to authenticate with Yahoo Finance
+2025-02-25T01:14:20.988Z error: Failed to fetch technical data: yahooFinance.getTechnicalData is not a function
+2025-02-25T01:14:24.843Z error: [YahooRoutes] Failed to fetch fundamentals for FORD: yahooFinance.getFundamentals is not a function
+2025-02-25T01:14:36.356Z error: Failed to fetch technical data: yahooFinance.getTechnicalData is not a function
+2025-02-25T01:14:38.636Z error: [YahooRoutes] Failed to fetch fundamentals for F: yahooFinance.getFundamentals is not a function
+2025-02-25T01:14:43.249Z error: Failed to fetch info: yahooFinance.getCompanyInfo is not a function
+2025-02-25T01:14:49.483Z error: Failed to fetch dividends: yahooFinance.getDividends is not a function
+2025-02-25T01:17:16.623Z error: Failed to fetch earnings: yahooFinance.getEarnings is not a function
+2025-02-25T02:33:12.146Z error: Failed to fetch price: yahooFinance.quote is not a function
+2025-02-25T02:33:40.060Z error: Failed to fetch news: yahooFinance.getNews is not a function
+2025-02-25T02:41:19.772Z error: Failed to fetch news: yahooFinance.getNews is not a function
+2025-02-25T02:44:01.848Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v2/finance/news: Request failed with status code 404
+2025-02-25T02:44:01.866Z error: Failed to fetch news for AAPL: Request failed with status code 404
+2025-02-25T02:44:01.879Z error: Failed to fetch news: Request failed with status code 404
+2025-02-25T02:44:05.516Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL: Request failed with status code 401
+2025-02-25T02:44:05.528Z error: Failed to fetch technicals for AAPL: Request failed with status code 401
+2025-02-25T02:44:07.709Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL: Request failed with status code 401
+2025-02-25T02:44:07.722Z error: Failed to fetch fundamentals for AAPL: Request failed with status code 401
+2025-02-25T02:45:43.327Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL: Request failed with status code 401
+2025-02-25T02:45:43.344Z error: Failed to fetch technicals for AAPL: Request failed with status code 401
+2025-02-25T02:45:45.051Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL: Request failed with status code 401
+2025-02-25T02:45:45.062Z error: Failed to fetch fundamentals for AAPL: Request failed with status code 401
+2025-02-25T02:45:47.122Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v2/finance/news: Request failed with status code 404
+2025-02-25T02:45:47.137Z error: Failed to fetch news for AAPL: Request failed with status code 404
+2025-02-25T02:45:47.143Z error: Failed to fetch news: Request failed with status code 404
+2025-02-25T04:23:41.926Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL: Request failed with status code 401
+2025-02-25T04:23:41.944Z error: Failed to fetch quote for AAPL: Request failed with status code 401
+2025-02-25T04:23:41.955Z error: Failed to fetch price data: Request failed with status code 401
+2025-02-25T04:26:33.870Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL: Request failed with status code 401
+2025-02-25T04:26:33.890Z error: Failed to fetch quote for AAPL: Request failed with status code 401
+2025-02-25T04:26:33.897Z error: Failed to fetch price data: Request failed with status code 401
+2025-02-25T04:28:50.955Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL: Request failed with status code 401
+2025-02-25T04:28:50.972Z error: Failed to fetch quote for AAPL: Request failed with status code 401
+2025-02-25T04:28:50.987Z error: Failed to fetch price data: Request failed with status code 401
+2025-02-25T04:31:51.125Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL: Request failed with status code 401
+2025-02-25T04:31:51.148Z error: Failed to fetch quote for AAPL: Request failed with status code 401
+2025-02-25T04:31:51.158Z error: Failed to fetch price data: Request failed with status code 401
+2025-02-25T05:24:37.902Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL: Request failed with status code 401
+2025-02-25T05:24:37.924Z error: Failed to fetch fundamentals for AAPL: Request failed with status code 401
+2025-02-25T05:31:32.138Z error: [makeRequest] Request failed for https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL: Request failed with status code 401
+2025-02-25T05:31:32.155Z error: Failed to fetch fundamentals for AAPL: Request failed with status code 401
+2025-02-25T05:31:32.170Z error: Error response: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2025-02-25T05:36:38.535Z error: Failed to fetch fundamentals for AAPL: Cannot read properties of undefined (reading 'raw')
+2025-02-25T20:02:10.921Z error: Failed to fetch quote for AAPL: Command failed: python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price AAPL
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 1, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+2025-02-25T20:23:24.805Z error: Failed to fetch quote for AAPL: Command failed: python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price AAPL
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 1, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+2025-02-25T22:34:19.889Z error: Failed to fetch quote for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T22:34:23.283Z error: Failed to fetch fundamentals for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T22:34:30.342Z error: Failed to fetch news for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T22:34:30.343Z error: Failed to fetch news: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T22:50:36.389Z error: Failed to fetch quote for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T22:50:44.553Z error: Failed to fetch fundamentals for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T22:50:47.104Z error: Failed to fetch news for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T22:50:47.105Z error: Failed to fetch news: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:31:33.606Z error: Failed to fetch quote for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:31:39.767Z error: Failed to fetch fundamentals for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:31:42.736Z error: Failed to fetch news for AAPLE: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:31:42.737Z error: Failed to fetch news: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:32:14.369Z error: Failed to fetch quote for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:32:16.637Z error: Failed to fetch news for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:32:16.637Z error: Failed to fetch news: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:32:18.382Z error: Failed to fetch fundamentals for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:33:17.365Z error: Failed to fetch quote for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:33:22.010Z error: Failed to fetch fundamentals for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:33:26.108Z error: Failed to fetch news for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:33:26.109Z error: Failed to fetch news: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:46:36.677Z error: Failed to fetch quote for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:46:41.255Z error: Failed to fetch fundamentals for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:46:43.244Z error: Failed to fetch news for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:46:43.245Z error: Failed to fetch news: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:46:53.143Z error: Failed to fetch quote for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:46:55.879Z error: Failed to fetch fundamentals for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:46:59.800Z error: Failed to fetch news for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:46:59.800Z error: Failed to fetch news: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:53:38.363Z error: Failed to fetch quote for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:53:42.766Z error: Failed to fetch fundamentals for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:53:46.040Z error: Failed to fetch news for AAPL: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:53:46.041Z error: Failed to fetch news: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:57:30.054Z error: Failed to fetch quote for TSLA: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-25T23:57:32.224Z error: Failed to fetch fundamentals for TSLA: spawn /Users/vincentlusco/STOCKBOX_Version_1/server/venv/bin/python3 ENOENT
+2025-02-26T07:17:41.642Z error: Failed to fetch technical data: yahooFinance.getTechnicals is not a function
+2025-02-26T08:58:49.848Z error: Failed to fetch technical data for F: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py tech F
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 81, in <module>
+    result = fetch_technical_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 55, in fetch_technical_data
+    rsi = 100 - (100 / (1 + rs)).tolist()
+          ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'list'
+
+2025-02-26T08:58:49.849Z error: Failed to fetch technical data: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py tech F
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 81, in <module>
+    result = fetch_technical_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 55, in fetch_technical_data
+    rsi = 100 - (100 / (1 + rs)).tolist()
+          ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'list'
+
+2025-02-26T09:02:30.196Z error: Failed to fetch technical data for F: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py tech F
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 81, in <module>
+    result = fetch_technical_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 55, in fetch_technical_data
+    rsi = 100 - (100 / (1 + rs)).tolist()
+          ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'list'
+
+2025-02-26T09:02:30.196Z error: Failed to fetch technical data: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py tech F
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 81, in <module>
+    result = fetch_technical_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 55, in fetch_technical_data
+    rsi = 100 - (100 / (1 + rs)).tolist()
+          ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'list'
+
+2025-02-26T11:04:43.703Z error: Failed to fetch earnings for F: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/fundamentals.py:33: DeprecationWarning: 'Ticker.earnings' is deprecated as not available via API. Look for "Net Income" in Ticker.income_stmt.
+  warnings.warn("'Ticker.earnings' is deprecated as not available via API. Look for \"Net Income\" in Ticker.income_stmt.", DeprecationWarning)
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 116, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 95, in fetch_earnings_data
+    if earnings.empty:
+       ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'empty'
+
+2025-02-26T11:04:43.704Z error: Failed to fetch earnings: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/fundamentals.py:33: DeprecationWarning: 'Ticker.earnings' is deprecated as not available via API. Look for "Net Income" in Ticker.income_stmt.
+  warnings.warn("'Ticker.earnings' is deprecated as not available via API. Look for \"Net Income\" in Ticker.income_stmt.", DeprecationWarning)
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 116, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 95, in fetch_earnings_data
+    if earnings.empty:
+       ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'empty'
+
+2025-02-26T11:13:05.304Z error: Failed to fetch earnings for AAL: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings AAL
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 117, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 97, in fetch_earnings_data
+    earnings = income_stmt.loc[:, ['Net Income', 'Earnings']]
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1377, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1020, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Net Income', 'Earnings'], dtype='object')] are in the [columns]"
+
+2025-02-26T11:13:05.305Z error: Failed to fetch earnings: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings AAL
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 117, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 97, in fetch_earnings_data
+    earnings = income_stmt.loc[:, ['Net Income', 'Earnings']]
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1377, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1020, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Net Income', 'Earnings'], dtype='object')] are in the [columns]"
+
+2025-02-26T11:19:42.340Z error: Failed to fetch earnings for F: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 117, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 97, in fetch_earnings_data
+    earnings = income_stmt.loc[:, ['Net Income', 'Earnings']]
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1377, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1020, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Net Income', 'Earnings'], dtype='object')] are in the [columns]"
+
+2025-02-26T11:19:42.341Z error: Failed to fetch earnings: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 117, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 97, in fetch_earnings_data
+    earnings = income_stmt.loc[:, ['Net Income', 'Earnings']]
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1377, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1020, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Net Income', 'Earnings'], dtype='object')] are in the [columns]"
+
+2025-02-26T11:21:01.026Z error: Failed to fetch earnings for F: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 117, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 97, in fetch_earnings_data
+    earnings = income_stmt.loc[:, ['Net Income', 'Earnings']]
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1377, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1020, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Net Income', 'Earnings'], dtype='object')] are in the [columns]"
+
+2025-02-26T11:21:01.027Z error: Failed to fetch earnings: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 117, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 97, in fetch_earnings_data
+    earnings = income_stmt.loc[:, ['Net Income', 'Earnings']]
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1377, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1020, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Net Income', 'Earnings'], dtype='object')] are in the [columns]"
+
+2025-02-26T11:30:53.575Z error: Error executing Python script for earnings F: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 117, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 97, in fetch_earnings_data
+    earnings = income_stmt.loc[:, ['Net Income', 'Earnings']]
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1377, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1020, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Net Income', 'Earnings'], dtype='object')] are in the [columns]"
+
+2025-02-26T11:30:53.575Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 117, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 97, in fetch_earnings_data
+    earnings = income_stmt.loc[:, ['Net Income', 'Earnings']]
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1377, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1020, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Net Income', 'Earnings'], dtype='object')] are in the [columns]"
+
+2025-02-26T11:30:53.576Z error: Failed to fetch earnings for F: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 117, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 97, in fetch_earnings_data
+    earnings = income_stmt.loc[:, ['Net Income', 'Earnings']]
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1377, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1020, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Net Income', 'Earnings'], dtype='object')] are in the [columns]"
+
+2025-02-26T11:30:53.576Z error: Failed to fetch earnings: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 117, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 97, in fetch_earnings_data
+    earnings = income_stmt.loc[:, ['Net Income', 'Earnings']]
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1377, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1020, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Net Income', 'Earnings'], dtype='object')] are in the [columns]"
+
+2025-02-26T11:33:58.581Z error: Error executing Python script for earnings F: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Available columns in income_stmt for F: [Timestamp('2024-12-31 00:00:00'), Timestamp('2023-12-31 00:00:00'), Timestamp('2022-12-31 00:00:00'), Timestamp('2021-12-31 00:00:00'), Timestamp('2020-12-31 00:00:00')]
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 122, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 105, in fetch_earnings_data
+    "earnings": [{"date": date.strftime("%Y-%m-%d"), "actualEPS": row["Earnings"], "estimatedEPS": row["Net Income"]} for date, row in earnings.iterrows()]
+                          ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+
+2025-02-26T11:33:58.582Z error: stderr: Available columns in income_stmt for F: [Timestamp('2024-12-31 00:00:00'), Timestamp('2023-12-31 00:00:00'), Timestamp('2022-12-31 00:00:00'), Timestamp('2021-12-31 00:00:00'), Timestamp('2020-12-31 00:00:00')]
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 122, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 105, in fetch_earnings_data
+    "earnings": [{"date": date.strftime("%Y-%m-%d"), "actualEPS": row["Earnings"], "estimatedEPS": row["Net Income"]} for date, row in earnings.iterrows()]
+                          ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+
+2025-02-26T11:33:58.582Z error: Failed to fetch earnings for F: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Available columns in income_stmt for F: [Timestamp('2024-12-31 00:00:00'), Timestamp('2023-12-31 00:00:00'), Timestamp('2022-12-31 00:00:00'), Timestamp('2021-12-31 00:00:00'), Timestamp('2020-12-31 00:00:00')]
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 122, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 105, in fetch_earnings_data
+    "earnings": [{"date": date.strftime("%Y-%m-%d"), "actualEPS": row["Earnings"], "estimatedEPS": row["Net Income"]} for date, row in earnings.iterrows()]
+                          ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+
+2025-02-26T11:33:58.583Z error: Failed to fetch earnings: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Available columns in income_stmt for F: [Timestamp('2024-12-31 00:00:00'), Timestamp('2023-12-31 00:00:00'), Timestamp('2022-12-31 00:00:00'), Timestamp('2021-12-31 00:00:00'), Timestamp('2020-12-31 00:00:00')]
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 122, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 105, in fetch_earnings_data
+    "earnings": [{"date": date.strftime("%Y-%m-%d"), "actualEPS": row["Earnings"], "estimatedEPS": row["Net Income"]} for date, row in earnings.iterrows()]
+                          ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+
+2025-02-26T11:38:24.365Z error: Error executing Python script for earnings F: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Available columns in income_stmt for F: [Timestamp('2024-12-31 00:00:00'), Timestamp('2023-12-31 00:00:00'), Timestamp('2022-12-31 00:00:00'), Timestamp('2021-12-31 00:00:00'), Timestamp('2020-12-31 00:00:00')]
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 129, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 105, in fetch_earnings_data
+    "date": date.strftime("%Y-%m-%d"),
+            ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+
+2025-02-26T11:38:24.366Z error: stderr: Available columns in income_stmt for F: [Timestamp('2024-12-31 00:00:00'), Timestamp('2023-12-31 00:00:00'), Timestamp('2022-12-31 00:00:00'), Timestamp('2021-12-31 00:00:00'), Timestamp('2020-12-31 00:00:00')]
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 129, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 105, in fetch_earnings_data
+    "date": date.strftime("%Y-%m-%d"),
+            ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+
+2025-02-26T11:38:24.367Z error: Failed to fetch earnings for F: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Available columns in income_stmt for F: [Timestamp('2024-12-31 00:00:00'), Timestamp('2023-12-31 00:00:00'), Timestamp('2022-12-31 00:00:00'), Timestamp('2021-12-31 00:00:00'), Timestamp('2020-12-31 00:00:00')]
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 129, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 105, in fetch_earnings_data
+    "date": date.strftime("%Y-%m-%d"),
+            ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+
+2025-02-26T11:38:24.367Z error: Failed to fetch earnings: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py earnings F
+Available columns in income_stmt for F: [Timestamp('2024-12-31 00:00:00'), Timestamp('2023-12-31 00:00:00'), Timestamp('2022-12-31 00:00:00'), Timestamp('2021-12-31 00:00:00'), Timestamp('2020-12-31 00:00:00')]
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 129, in <module>
+    result = fetch_earnings_data(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 105, in fetch_earnings_data
+    "date": date.strftime("%Y-%m-%d"),
+            ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+
+2025-03-05T16:24:19.245Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.248Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.249Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.249Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.256Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.256Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.256Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.257Z error: Error executing Python script for price TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.257Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.257Z error: Failed to fetch quote for TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.258Z error: Error executing Python script for price MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.258Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:24:19.259Z error: Failed to fetch quote for MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.286Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.287Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.287Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.287Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.294Z error: Error executing Python script for price MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.294Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.294Z error: Failed to fetch quote for MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.294Z error: Error executing Python script for price TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.294Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.294Z error: Failed to fetch quote for TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.295Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.295Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T16:44:42.295Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T17:19:28.126Z error: Error executing Python script for tech aapl: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py tech aapl
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T17:19:28.126Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T17:19:28.127Z error: Failed to fetch technical data for aapl: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py tech aapl
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T17:19:28.127Z error: Failed to fetch technical data: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py tech aapl
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+ModuleNotFoundError: No module named 'calculations'
+
+2025-03-05T17:21:08.896Z error: Error executing Python script for price aapl: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price aapl
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:08.897Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:08.897Z error: Failed to fetch quote for aapl: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price aapl
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.768Z error: Error executing Python script for price TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.770Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.771Z error: Failed to fetch quote for TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.772Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.774Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.775Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.775Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.775Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.778Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.778Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.778Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.778Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.778Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.779Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.779Z error: Error executing Python script for price MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.779Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.779Z error: Failed to fetch quote for MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.779Z error: Error executing Python script for price MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.780Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.780Z error: Failed to fetch quote for MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.780Z error: Error executing Python script for price TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.780Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.781Z error: Failed to fetch quote for TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.782Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.782Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:21:17.782Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.026Z error: Error executing Python script for price MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.027Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.028Z error: Failed to fetch quote for MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.029Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.033Z error: Error executing Python script for price TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.033Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.033Z error: Failed to fetch quote for TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.034Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.034Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.034Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.034Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.034Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:23.034Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.966Z error: Error executing Python script for price TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.967Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.967Z error: Failed to fetch quote for TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.967Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.969Z error: Error executing Python script for price MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.969Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.969Z error: Failed to fetch quote for MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.970Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.970Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.970Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.970Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.971Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:25:52.971Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.409Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.410Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.410Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.411Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.414Z error: Error executing Python script for price TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.415Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.415Z error: Failed to fetch quote for TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.417Z error: Error executing Python script for price MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.417Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.417Z error: Failed to fetch quote for MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.419Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.419Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:26:23.419Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.487Z error: Error executing Python script for price TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.488Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.488Z error: Failed to fetch quote for TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.488Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.489Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.490Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.491Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.491Z error: Error executing Python script for price MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.492Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.492Z error: Failed to fetch quote for MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.492Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.492Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:27:59.492Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.792Z error: Error executing Python script for price TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.792Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.792Z error: Failed to fetch quote for TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.793Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.794Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.794Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.794Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.795Z error: Error executing Python script for price MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.795Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.795Z error: Failed to fetch quote for MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price MSFT
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.795Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.796Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+2025-03-05T17:28:31.796Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 6, in <module>
+    from calculations import (
+    ...<9 lines>...
+    )
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/calculations.py", line 1
+    const calculateSMA = (data, window) => {
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+

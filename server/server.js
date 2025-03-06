@@ -1,84 +1,70 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const net = require('net');
 const connectDB = require('./db/connection');
-const v8 = require('v8');
-const ProcessManager = require('./utils/processManager');
+const yahooRoutes = require('./routes/yahooRoutes');
+const newsRoutes = require('./routes/newsRoutes');
+const cacheService = require('./services/cacheService');
+const stockService = require('./services/stockService');
+const bodyParser = require('body-parser');
+const ngrok = require('ngrok');
 
 // Load environment variables
 dotenv.config();
-
-// Set memory limits
-v8.setFlagsFromString('--max_old_space_size=256'); // Limit heap to 256MB
-v8.setFlagsFromString('--optimize_for_size');      // Optimize for memory over speed
-
-// Function to find an available port
-const findAvailablePort = (startPort) => {
-  return new Promise((resolve, reject) => {
-    const server = net.createServer();
-    server.unref();
-    server.on('error', () => {
-      // If port is in use, try the next port
-      resolve(findAvailablePort(startPort + 1));
-    });
-
-    server.listen(startPort, () => {
-      const { port } = server.address();
-      server.close(() => {
-        resolve(port);
-      });
-    });
-  });
-};
 
 const app = express();
 
 // Middleware
 app.use(cors());
 app.use(express.json());
+app.use(bodyParser.json());
+
+// Initialize services
+cacheService.init();
+stockService.init();
+
+// Add this before the routes
+app.use((req, res, next) => {
+    console.log(`${req.method} ${req.url}`);
+    next();
+});
 
 // Routes
-app.get('/', (req, res) => {
-  res.send('API is running...');
-});
+app.use('/api/yahoo', yahooRoutes);
+app.use('/api/news', newsRoutes);
 
-// Add before starting the server
-global.processManager = new ProcessManager({
-  maxRestarts: 5,
-  restartDelay: 5000
-});
-
-// Add to your routes
-app.use('/monitor', require('./routes/monitorRoutes'));
+// Watchlist endpoint
+app.use('/watchlist', yahooRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).send('Something broke!');
+    console.error(err.stack);
+    res.status(500).json({ error: 'Something broke!' });
 });
 
-// Start server with dynamic port
+// Use port 4611
+const PORT = process.env.PORT || 4611;
+
 const startServer = async () => {
-  try {
-    // Connect to MongoDB
-    await connectDB();
-    
-    // Find available port (starting from 4000)
-    const port = await findAvailablePort(4000);
-    
-    app.listen(port, () => {
-      console.log(`Server is running on port ${port}`);
-      // Store the port in a file that the client can read
-      require('fs').writeFileSync(
-        './.env',
-        `PORT=${port}\n`,
-        { flag: 'w' }
-      );
-    });
-  } catch (error) {
-    console.error('Failed to start server:', error);
-  }
+    try {
+        await connectDB();
+        app.listen(PORT, async () => {
+            console.log(`Server running on port ${PORT}`);
+
+            // Start Ngrok tunnel for the backend server
+            const backendUrl = await ngrok.connect(PORT);
+            console.log(`Ngrok tunnel for backend URL: ${backendUrl}`);
+
+            // Start Ngrok tunnel for the client server
+            const clientUrl = await ngrok.connect(3000);
+            console.log(`Ngrok tunnel for client URL: ${clientUrl}`);
+
+            console.log(`Ngrok web interface: http://127.0.0.1:4040`);
+        });
+    } catch (error) {
+        console.error('Failed to start server:', error);
+        process.exit(1);
+    }
 };
 
-startServer(); 
+startServer();

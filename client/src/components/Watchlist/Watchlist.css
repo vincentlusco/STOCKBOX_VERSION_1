@@ -1,0 +1,33 @@
+.watchlist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.watchlist-table th, .watchlist-table td {
+    border: 1px solid #00FF00;
+    padding: 8px;
+}
+
+.watchlist-table th {
+    background-color: #00FF00;
+    color: black;
+}
+
+.watchlist-table tr:nth-child(even) {
+    background-color: black;
+}
+
+.watchlist-table tr:hover {
+    background-color: green;
+}
+
+.positive {
+    color: #00FF00;
+}
+
+.negative {
+    color: red;
+}

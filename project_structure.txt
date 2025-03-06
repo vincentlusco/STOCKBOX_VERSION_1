@@ -1,0 +1,207 @@
+.
+├── client
+│   ├── README.md
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   └── src
+│       ├── App.css
+│       ├── App.js
+│       ├── App.test.js
+│       ├── api
+│       ├── components
+│       │   ├── Header.js
+│       │   ├── Terminal
+│       │   │   ├── ErrorBoundary.js
+│       │   │   ├── Terminal.css
+│       │   │   └── Terminal.js
+│       │   ├── Terminal.js
+│       │   └── TerminalLayout.js
+│       ├── config
+│       │   ├── apiConfig.js
+│       │   └── apiKeys.js
+│       ├── hooks
+│       ├── index.css
+│       ├── index.js
+│       ├── logo.svg
+│       ├── middleware
+│       │   └── errorHandler.js
+│       ├── pages
+│       │   ├── ConfigPage.js
+│       │   ├── Help.js
+│       │   ├── Terminal.js
+│       │   ├── Warren.js
+│       │   └── Watchlist.js
+│       ├── reportWebVitals.js
+│       ├── services
+│       │   ├── apiServices
+│       │   │   ├── baseAPI.js
+│       │   │   ├── index.js
+│       │   │   └── providers
+│       │   │       ├── adr
+│       │   │       │   ├── endpoints.js
+│       │   │       │   ├── index.js
+│       │   │       │   └── mappers.js
+│       │   │       ├── alphaVantage
+│       │   │       │   ├── endpoints.js
+│       │   │       │   ├── index.js
+│       │   │       │   └── mappers.js
+│       │   │       ├── finnhub
+│       │   │       │   └── index.js
+│       │   │       ├── fmp
+│       │   │       │   ├── endpoints.js
+│       │   │       │   ├── index.js
+│       │   │       │   └── mappers.js
+│       │   │       ├── index.js
+│       │   │       ├── preferred
+│       │   │       │   ├── endpoints.js
+│       │   │       │   ├── index.js
+│       │   │       │   └── mappers.js
+│       │   │       ├── reit
+│       │   │       │   ├── endpoints.js
+│       │   │       │   ├── index.js
+│       │   │       │   └── mappers.js
+│       │   │       ├── types.ts
+│       │   │       └── yahooFinance
+│       │   │           ├── endpoints.js
+│       │   │           ├── index.js
+│       │   │           ├── mappers.js
+│       │   │           └── types.js
+│       │   ├── commands
+│       │   │   └── commandProcessor.js
+│       │   ├── config
+│       │   │   └── apiConfig.js
+│       │   ├── dataMappers
+│       │   │   └── index.js
+│       │   ├── proxyService.js
+│       │   ├── securities
+│       │   │   ├── apiResolver.js
+│       │   │   ├── classifiers
+│       │   │   │   ├── bondClassifier.js
+│       │   │   │   ├── commodityClassifier.js
+│       │   │   │   ├── cryptoClassifier.js
+│       │   │   │   ├── etfClassifier.js
+│       │   │   │   ├── forexClassifier.js
+│       │   │   │   ├── futuresClassifier.js
+│       │   │   │   ├── index.js
+│       │   │   │   ├── indexClassifier.js
+│       │   │   │   ├── optionClassifier.js
+│       │   │   │   ├── securityClassifier.js
+│       │   │   │   └── stockClassifier.js
+│       │   │   ├── commands
+│       │   │   │   ├── commandExecutor.js
+│       │   │   │   ├── marketCommands.js
+│       │   │   │   └── stockCommands.js
+│       │   │   ├── config
+│       │   │   │   ├── apiPriority.js
+│       │   │   │   └── providerStrategy.js
+│       │   │   ├── data
+│       │   │   │   └── knownSecurities.js
+│       │   │   ├── fetchers
+│       │   │   │   ├── marketFetcher.js
+│       │   │   │   ├── securityFetcher.js
+│       │   │   │   └── stockFetcher.js
+│       │   │   ├── formatters
+│       │   │   │   ├── formatters.js
+│       │   │   │   ├── marketFormatter.js
+│       │   │   │   ├── securityFormatter.js
+│       │   │   │   └── stockFormatter.js
+│       │   │   ├── handlers
+│       │   │   │   └── stockHandler.js
+│       │   │   ├── index.js
+│       │   │   ├── mappers
+│       │   │   │   ├── additionalMappers.js
+│       │   │   │   ├── marketMapper.js
+│       │   │   │   └── stockMapper.js
+│       │   │   ├── types
+│       │   │   │   ├── bond.js
+│       │   │   │   ├── commodity.js
+│       │   │   │   ├── crypto.js
+│       │   │   │   ├── etf.js
+│       │   │   │   ├── forex.js
+│       │   │   │   ├── futures.js
+│       │   │   │   ├── index-security.js
+│       │   │   │   ├── index.js
+│       │   │   │   ├── option.js
+│       │   │   │   ├── stock.js
+│       │   │   │   └── stockTypes.js
+│       │   │   └── utils
+│       │   │       ├── APIRetryStrategy.js
+│       │   │       ├── dataValidation.js
+│       │   │       ├── errorHandler.js
+│       │   │       ├── errorRecovery.js
+│       │   │       ├── rateLimiter.js
+│       │   │       └── validators.js
+│       │   ├── terminalService.js
+│       │   ├── utils
+│       │   │   └── APIRetryStrategy.js
+│       │   └── websocket
+│       │       └── websocketService.js
+│       ├── setupTests.js
+│       ├── store
+│       ├── styles
+│       │   └── global.css
+│       ├── tests
+│       │   └── apiServices.test.js
+│       ├── types
+│       │   ├── securities.js
+│       │   ├── securities.ts
+│       │   └── securityType.ts
+│       └── utils
+│           ├── APIRetryStrategy.js
+│           ├── logger.js
+│           └── rateLimiter.js
+├── install.sh
+├── package-lock.json
+├── package.json
+├── project_structure.txt
+├── server
+│   ├── config
+│   │   ├── apiKeys.js
+│   │   ├── db.config.js
+│   │   ├── lowMemoryConfig.js
+│   │   └── memory.js
+│   ├── controllers
+│   │   ├── configController.js
+│   │   └── stockController.js
+│   ├── db
+│   │   └── connection.js
+│   ├── middleware
+│   │   └── rateLimiter.js
+│   ├── models
+│   │   └── stockData.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── routes
+│   │   ├── configRoutes.js
+│   │   ├── monitorRoutes.js
+│   │   └── yahooRoutes.js
+│   ├── scripts
+│   │   └── setup-config.js
+│   ├── server.js
+│   ├── services
+│   │   ├── api
+│   │   │   ├── index.js
+│   │   │   └── yahooFinance.js
+│   │   ├── apiServices
+│   │   │   └── yahooFinanceAPI.js
+│   │   ├── cacheService.js
+│   │   ├── dataStream.js
+│   │   ├── stockService.js
+│   │   └── websocketService.js
+│   └── utils
+│       ├── apiRetry.js
+│       ├── memoryMonitor.js
+│       ├── processManager.js
+│       └── rateLimiter.js
+├── setup
+│   └── stockbox.service
+└── ~
+
+56 directories, 149 files
