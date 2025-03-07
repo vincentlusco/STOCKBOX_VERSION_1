@@ -11,15 +11,8 @@ export const fetchStockFundamentals = async (symbol) => {
 };
 
 export const fetchStockTechnical = async (symbol) => {
-    console.log(`Fetching technical data for ${symbol}`);
-    try {
-        const response = await axios.get(`/api/yahoo/${symbol}/tech`);
-        console.log(`Technical data response for ${symbol}:`, response.data);
-        return response.data; // Ensure the correct data is returned
-    } catch (error) {
-        console.error(`Error fetching technical data for ${symbol}:`, error);
-        throw error;
-    }
+    const response = await axios.get(`/api/yahoo/${symbol}/tech`);
+    return response.data;
 };
 
 export const fetchStockNews = async (symbol) => {
@@ -28,18 +21,26 @@ export const fetchStockNews = async (symbol) => {
 };
 
 export const fetchStockDividends = async (symbol) => {
-    console.log(`Fetching dividends data for ${symbol}`);
-    try {
-        const response = await axios.get(`/api/yahoo/${symbol}/dividends`);
-        console.log(`Dividends data response for ${symbol}:`, response.data);
-        return response.data; // Ensure the correct data is returned
-    } catch (error) {
-        console.error(`Error fetching dividends data for ${symbol}:`, error);
-        throw error;
-    }
+    const response = await axios.get(`/api/yahoo/${symbol}/dividends`);
+    return response.data;
 };
 
 export const fetchStockEarnings = async (symbol) => {
     const response = await axios.get(`/api/yahoo/${symbol}/earnings`);
+    return response.data;
+};
+
+export const fetchCompanyInfo = async (symbol) => {
+    const response = await axios.get(`/api/yahoo/${symbol}/info`);
+    return response.data;
+};
+
+export const fetchInsiderTransactions = async (symbol) => {
+    const response = await axios.get(`/api/yahoo/${symbol}/insider`);
+    return response.data;
+};
+
+export const fetchPeerComparison = async (symbol) => {
+    const response = await axios.get(`/api/yahoo/${symbol}/peers`);
     return response.data;
 };

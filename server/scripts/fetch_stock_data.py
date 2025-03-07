@@ -173,6 +173,47 @@ def fetch_earnings_data(symbol):
         "earnings": earnings
     }
 
+def fetch_company_info(symbol):
+    stock = yf.Ticker(symbol)
+    info = stock.info
+    result = {
+        "name": info.get("longName", "N/A"),
+        "sector": info.get("sector", "N/A"),
+        "industry": info.get("industry", "N/A"),
+        "employees": info.get("fullTimeEmployees", "N/A")
+    }
+    return result
+
+def fetch_insider_transactions(symbol):
+    stock = yf.Ticker(symbol)
+    transactions = stock.insider_transactions
+
+    # Print the columns of the transactions DataFrame
+    print(f"Columns in transactions DataFrame for {symbol}: {transactions.columns.tolist()}", file=sys.stderr)
+
+    # Convert Timestamp objects to strings
+    if 'Start Date' in transactions.columns:
+        transactions['Start Date'] = transactions['Start Date'].apply(lambda x: x.strftime('%Y-%m-%d') if isinstance(x, pd.Timestamp) else x)
+    else:
+        print(f"'Start Date' column not found in transactions DataFrame for {symbol}", file=sys.stderr)
+    
+    # Convert any remaining Timestamp objects to strings
+    for col in transactions.columns:
+        if transactions[col].dtype == 'datetime64[ns]':
+            transactions[col] = transactions[col].apply(lambda x: x.strftime('%Y-%m-%d') if isinstance(x, pd.Timestamp) else x)
+    
+    # Replace NaN values with None
+    transactions = transactions.where(pd.notnull(transactions), None)
+    
+    # Simplify the data by only including insider, position, shares, transaction, start date, value, and ownership
+    simplified_transactions = transactions[['Insider', 'Position', 'Shares', 'Transaction', 'Start Date', 'Value', 'Ownership']].to_dict(orient='records')
+    
+    result = {
+        "transactions": simplified_transactions
+    }
+    return result
+
+
 if __name__ == "__main__":
     command = sys.argv[1]
     symbol = sys.argv[2]
@@ -188,6 +229,10 @@ if __name__ == "__main__":
         result = fetch_dividends_data(symbol)
     elif command == "earnings":
         result = fetch_earnings_data(symbol)
+    elif command == "info":
+        result = fetch_company_info(symbol)
+    elif command == "insider":
+        result = fetch_insider_transactions(symbol)
     else:
         result = {}
     print(json.dumps(result))

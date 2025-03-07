@@ -97,4 +97,31 @@ router.post('/watchlist', async (req, res) => {
     }
 });
 
+// Company info endpoint
+router.get('/:symbol/info', async (req, res) => {
+    try {
+        const { symbol } = req.params;
+        logger.info(`Fetching company info for ${symbol}`);
+        const data = await yahooFinance.getCompanyInfo(symbol);
+        res.json(data);
+    } catch (error) {
+        logger.error('Failed to fetch company info:', error);
+        res.status(500).json({ error: 'Failed to fetch company info', details: error.message });
+    }
+});
+
+// Insider transactions endpoint
+router.get('/:symbol/insider', async (req, res) => {
+    try {
+        const { symbol } = req.params;
+        logger.info(`Fetching insider transactions for ${symbol}`);
+        const data = await yahooFinance.getInsiderTransactions(symbol);
+        res.json(data);
+    } catch (error) {
+        logger.error('Failed to fetch insider transactions:', error);
+        res.status(500).json({ error: 'Failed to fetch insider transactions', details: error.message });
+    }
+});
+
+
 module.exports = router;

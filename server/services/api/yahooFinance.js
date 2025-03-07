@@ -1,6 +1,7 @@
 const { execFile } = require('child_process');
 const { logger } = require('../../utils/logger');
 const path = require('path');
+const { formatInsiderTransactions, formatPeerComparison } = require('../../utils/dataFormatter');
 const pythonPath = '/Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3';
 
 function runPythonScript(command, symbol) {
@@ -13,7 +14,15 @@ function runPythonScript(command, symbol) {
                 reject(error);
             } else {
                 logger.debug(`stdout: ${stdout}`);
-                resolve(JSON.parse(stdout));
+                try {
+                    // Replace NaN values with null before parsing JSON
+                    const sanitizedOutput = stdout.replace(/NaN/g, 'null');
+                    const data = JSON.parse(sanitizedOutput);
+                    resolve(data);
+                } catch (parseError) {
+                    logger.error(`Error parsing JSON output for ${command} ${symbol}:`, parseError);
+                    reject(parseError);
+                }
             }
         });
     });
@@ -91,6 +100,31 @@ async function getEarnings(symbol) {
     }
 }
 
+async function getCompanyInfo(symbol) {
+    try {
+        logger.info(`Fetching company info for ${symbol}`);
+        const info = await runPythonScript('info', symbol);
+        logger.debug(`getCompanyInfo response: ${JSON.stringify(info)}`);
+        return info;
+    } catch (error) {
+        logger.error(`Failed to fetch company info for ${symbol}:`, error);
+        throw error;
+    }
+}
+
+async function getInsiderTransactions(symbol) {
+    try {
+        logger.info(`Fetching insider transactions for ${symbol}`);
+        let transactions = await runPythonScript('insider', symbol);
+        transactions = formatInsiderTransactions(transactions);
+        logger.debug(`getInsiderTransactions response: ${JSON.stringify(transactions)}`);
+        return transactions;
+    } catch (error) {
+        logger.error(`Failed to fetch insider transactions for ${symbol}:`, error);
+        throw error;
+    }
+}
+
 async function getWatchlistData(symbols) {
     try {
         logger.info(`Fetching watchlist data for ${symbols}`);
@@ -121,5 +155,7 @@ module.exports = {
     getNews,
     getDividends,
     getEarnings,
+    getCompanyInfo,
+    getInsiderTransactions,
     getWatchlistData
 };

@@ -5766,3 +5766,1924 @@ Traceback (most recent call last):
     ^^^^^^^^^^^^^
 AttributeError: 'NoneType' object has no attribute 'update'
 
+2025-03-07T06:55:49.656Z error: Error executing Python script for peers f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 233, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 199, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T06:55:49.657Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 233, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 199, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T06:55:49.657Z error: Failed to fetch peer comparison for f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 233, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 199, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T06:55:49.658Z error: Failed to fetch peer comparison: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 233, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 199, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T06:55:58.060Z error: Error executing Python script for insider f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 236, in <module>
+    print(json.dumps(result))
+          ~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Timestamp is not JSON serializable
+
+2025-03-07T06:55:58.060Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 236, in <module>
+    print(json.dumps(result))
+          ~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Timestamp is not JSON serializable
+
+2025-03-07T06:55:58.060Z error: Failed to fetch insider transactions for f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 236, in <module>
+    print(json.dumps(result))
+          ~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Timestamp is not JSON serializable
+
+2025-03-07T06:55:58.060Z error: Failed to fetch insider transactions: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 236, in <module>
+    print(json.dumps(result))
+          ~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Timestamp is not JSON serializable
+
+2025-03-07T07:01:53.940Z error: Error executing Python script for insider f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 235, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 193, in fetch_insider_transactions
+    transactions['Date'] = transactions['Date'].apply(lambda x: x.strftime('%Y-%m-%d') if isinstance(x, pd.Timestamp) else x)
+                           ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+
+2025-03-07T07:01:53.941Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 235, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 193, in fetch_insider_transactions
+    transactions['Date'] = transactions['Date'].apply(lambda x: x.strftime('%Y-%m-%d') if isinstance(x, pd.Timestamp) else x)
+                           ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+
+2025-03-07T07:01:53.941Z error: Failed to fetch insider transactions for f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 235, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 193, in fetch_insider_transactions
+    transactions['Date'] = transactions['Date'].apply(lambda x: x.strftime('%Y-%m-%d') if isinstance(x, pd.Timestamp) else x)
+                           ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+
+2025-03-07T07:01:53.941Z error: Failed to fetch insider transactions: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 235, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 193, in fetch_insider_transactions
+    transactions['Date'] = transactions['Date'].apply(lambda x: x.strftime('%Y-%m-%d') if isinstance(x, pd.Timestamp) else x)
+                           ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+
+2025-03-07T07:02:05.046Z error: Error executing Python script for peers f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 237, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 203, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T07:02:05.047Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 237, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 203, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T07:02:05.047Z error: Failed to fetch peer comparison for f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 237, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 203, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T07:02:05.047Z error: Failed to fetch peer comparison: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 237, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 203, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T07:07:25.849Z error: Error executing Python script for insider f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+'Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 246, in <module>
+    print(json.dumps(result))
+          ~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Timestamp is not JSON serializable
+
+2025-03-07T07:07:25.850Z error: stderr: Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+'Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 246, in <module>
+    print(json.dumps(result))
+          ~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Timestamp is not JSON serializable
+
+2025-03-07T07:07:25.850Z error: Failed to fetch insider transactions for f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+'Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 246, in <module>
+    print(json.dumps(result))
+          ~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Timestamp is not JSON serializable
+
+2025-03-07T07:07:25.850Z error: Failed to fetch insider transactions: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+'Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 246, in <module>
+    print(json.dumps(result))
+          ~~~~~~~~~~^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Timestamp is not JSON serializable
+
+2025-03-07T07:38:46.163Z error: Error executing Python script for insider f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Holder'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 268, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 223, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row['Holder'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row['Shares']
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in <lambda>
+    'Holder': row['Holder'],
+              ~~~^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1121, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Holder'
+
+2025-03-07T07:38:46.165Z error: stderr: Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Holder'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 268, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 223, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row['Holder'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row['Shares']
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in <lambda>
+    'Holder': row['Holder'],
+              ~~~^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1121, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Holder'
+
+2025-03-07T07:38:46.165Z error: Failed to fetch insider transactions for f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Holder'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 268, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 223, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row['Holder'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row['Shares']
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in <lambda>
+    'Holder': row['Holder'],
+              ~~~^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1121, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Holder'
+
+2025-03-07T07:38:46.166Z error: Failed to fetch insider transactions: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Holder'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 268, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 223, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row['Holder'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row['Shares']
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in <lambda>
+    'Holder': row['Holder'],
+              ~~~^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1121, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Holder'
+
+2025-03-07T07:42:54.161Z error: Error executing Python script for insider f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:225: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Holder': row[0],  # Assuming the first column is the holder's name
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:226: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Shares': row[1]   # Assuming the second column is the number of shares
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 269, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row[0],  # Assuming the first column is the holder's name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row[1]   # Assuming the second column is the number of shares
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 226, in <lambda>
+    'Shares': row[1]   # Assuming the second column is the number of shares
+              ~~~^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1118, in __getitem__
+    return self._values[key]
+           ~~~~~~~~~~~~^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+2025-03-07T07:42:54.164Z error: stderr: Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:225: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Holder': row[0],  # Assuming the first column is the holder's name
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:226: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Shares': row[1]   # Assuming the second column is the number of shares
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 269, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row[0],  # Assuming the first column is the holder's name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row[1]   # Assuming the second column is the number of shares
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 226, in <lambda>
+    'Shares': row[1]   # Assuming the second column is the number of shares
+              ~~~^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1118, in __getitem__
+    return self._values[key]
+           ~~~~~~~~~~~~^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+2025-03-07T07:42:54.164Z error: Failed to fetch insider transactions for f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:225: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Holder': row[0],  # Assuming the first column is the holder's name
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:226: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Shares': row[1]   # Assuming the second column is the number of shares
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 269, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row[0],  # Assuming the first column is the holder's name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row[1]   # Assuming the second column is the number of shares
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 226, in <lambda>
+    'Shares': row[1]   # Assuming the second column is the number of shares
+              ~~~^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1118, in __getitem__
+    return self._values[key]
+           ~~~~~~~~~~~~^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+2025-03-07T07:42:54.165Z error: Failed to fetch insider transactions: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:225: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Holder': row[0],  # Assuming the first column is the holder's name
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:226: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Shares': row[1]   # Assuming the second column is the number of shares
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 269, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row[0],  # Assuming the first column is the holder's name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row[1]   # Assuming the second column is the number of shares
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 226, in <lambda>
+    'Shares': row[1]   # Assuming the second column is the number of shares
+              ~~~^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1118, in __getitem__
+    return self._values[key]
+           ~~~~~~~~~~~~^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+2025-03-07T07:44:27.759Z error: Error executing Python script for insider f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:225: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Holder': row[0],  # Assuming the first column is the holder's name
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:226: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Shares': row[1]   # Assuming the second column is the number of shares
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 269, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row[0],  # Assuming the first column is the holder's name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row[1]   # Assuming the second column is the number of shares
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 226, in <lambda>
+    'Shares': row[1]   # Assuming the second column is the number of shares
+              ~~~^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1118, in __getitem__
+    return self._values[key]
+           ~~~~~~~~~~~~^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+2025-03-07T07:44:27.760Z error: stderr: Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:225: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Holder': row[0],  # Assuming the first column is the holder's name
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:226: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Shares': row[1]   # Assuming the second column is the number of shares
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 269, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row[0],  # Assuming the first column is the holder's name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row[1]   # Assuming the second column is the number of shares
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 226, in <lambda>
+    'Shares': row[1]   # Assuming the second column is the number of shares
+              ~~~^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1118, in __getitem__
+    return self._values[key]
+           ~~~~~~~~~~~~^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+2025-03-07T07:44:27.761Z error: Failed to fetch insider transactions for f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:225: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Holder': row[0],  # Assuming the first column is the holder's name
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:226: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Shares': row[1]   # Assuming the second column is the number of shares
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 269, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row[0],  # Assuming the first column is the holder's name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row[1]   # Assuming the second column is the number of shares
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 226, in <lambda>
+    'Shares': row[1]   # Assuming the second column is the number of shares
+              ~~~^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1118, in __getitem__
+    return self._values[key]
+           ~~~~~~~~~~~~^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+2025-03-07T07:44:27.761Z error: Failed to fetch insider transactions: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+Columns in transactions DataFrame for f: ['Shares', 'URL', 'Text', 'Insider', 'Position', 'Transaction', 'Start Date', 'Ownership', 'Value']
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:225: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Holder': row[0],  # Assuming the first column is the holder's name
+/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py:226: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  'Shares': row[1]   # Assuming the second column is the number of shares
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 269, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 224, in fetch_insider_transactions
+    simplified_holders = holders.apply(lambda row: {
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        'Holder': row[0],  # Assuming the first column is the holder's name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'Shares': row[1]   # Assuming the second column is the number of shares
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    }, axis=1).tolist()
+    ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 10374, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 226, in <lambda>
+    'Shares': row[1]   # Assuming the second column is the number of shares
+              ~~~^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/series.py", line 1118, in __getitem__
+    return self._values[key]
+           ~~~~~~~~~~~~^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+2025-03-07T08:01:14.092Z error: Failed to fetch insider transactions: Failed to fetch insider transactions for aapl: Request failed with status code 404
+2025-03-07T08:01:57.294Z error: Failed to fetch insider transactions: Failed to fetch insider transactions for aapl: Request failed with status code 404
+2025-03-07T08:02:17.067Z error: Failed to fetch insider transactions: Failed to fetch insider transactions for aapl: Request failed with status code 404
+2025-03-07T08:11:14.684Z error: Error parsing JSON output for insider aapl: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T08:11:14.685Z error: Failed to fetch insider transactions for aapl: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T08:11:14.685Z error: Failed to fetch insider transactions: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T08:16:58.292Z error: Error parsing JSON output for insider f: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T08:16:58.292Z error: Failed to fetch insider transactions for f: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T08:16:58.293Z error: Failed to fetch insider transactions: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T08:30:40.616Z error: Error executing Python script for insider f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+500 Server Error: INKApi Error for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/F?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=vsP2pdnJtgQ
+Columns in transactions DataFrame for f: []
+'Start Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 253, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 212, in fetch_insider_transactions
+    }, axis=1).tolist()
+               ^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'tolist'
+
+2025-03-07T08:30:40.617Z error: stderr: 500 Server Error: INKApi Error for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/F?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=vsP2pdnJtgQ
+Columns in transactions DataFrame for f: []
+'Start Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 253, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 212, in fetch_insider_transactions
+    }, axis=1).tolist()
+               ^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'tolist'
+
+2025-03-07T08:30:40.618Z error: Failed to fetch insider transactions for f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+500 Server Error: INKApi Error for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/F?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=vsP2pdnJtgQ
+Columns in transactions DataFrame for f: []
+'Start Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 253, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 212, in fetch_insider_transactions
+    }, axis=1).tolist()
+               ^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'tolist'
+
+2025-03-07T08:30:40.618Z error: Failed to fetch insider transactions: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+500 Server Error: INKApi Error for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/F?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=vsP2pdnJtgQ
+Columns in transactions DataFrame for f: []
+'Start Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 253, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 212, in fetch_insider_transactions
+    }, axis=1).tolist()
+               ^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'tolist'
+
+2025-03-07T08:35:02.598Z error: Error executing Python script for insider f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/F?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=
+Columns in transactions DataFrame for f: []
+'Start Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 255, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 214, in fetch_insider_transactions
+    }, axis=1).tolist()
+               ^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'tolist'
+
+2025-03-07T08:35:02.599Z error: stderr: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/F?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=
+Columns in transactions DataFrame for f: []
+'Start Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 255, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 214, in fetch_insider_transactions
+    }, axis=1).tolist()
+               ^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'tolist'
+
+2025-03-07T08:35:02.599Z error: Failed to fetch insider transactions for f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/F?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=
+Columns in transactions DataFrame for f: []
+'Start Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 255, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 214, in fetch_insider_transactions
+    }, axis=1).tolist()
+               ^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'tolist'
+
+2025-03-07T08:35:02.599Z error: Failed to fetch insider transactions: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider f
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/F?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=
+Columns in transactions DataFrame for f: []
+'Start Date' column not found in transactions DataFrame for f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 255, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 214, in fetch_insider_transactions
+    }, axis=1).tolist()
+               ^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'tolist'
+
+2025-03-07T09:02:50.592Z error: Error executing Python script for insider gme: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider gme
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GME?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=
+Columns in transactions DataFrame for gme: []
+'Start Date' column not found in transactions DataFrame for gme
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 250, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 209, in fetch_insider_transactions
+    simplified_transactions = transactions[['Insider', 'Position', 'Shares', 'Transaction', 'Start Date', 'Value', 'Ownership', 'Text']].to_dict(orient='records')
+                              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Insider', 'Position', 'Shares', 'Transaction', 'Start Date', 'Value',\n       'Ownership', 'Text'],\n      dtype='object')] are in the [columns]"
+
+2025-03-07T09:02:50.593Z error: stderr: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GME?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=
+Columns in transactions DataFrame for gme: []
+'Start Date' column not found in transactions DataFrame for gme
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 250, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 209, in fetch_insider_transactions
+    simplified_transactions = transactions[['Insider', 'Position', 'Shares', 'Transaction', 'Start Date', 'Value', 'Ownership', 'Text']].to_dict(orient='records')
+                              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Insider', 'Position', 'Shares', 'Transaction', 'Start Date', 'Value',\n       'Ownership', 'Text'],\n      dtype='object')] are in the [columns]"
+
+2025-03-07T09:02:50.593Z error: Failed to fetch insider transactions for gme: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider gme
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GME?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=
+Columns in transactions DataFrame for gme: []
+'Start Date' column not found in transactions DataFrame for gme
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 250, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 209, in fetch_insider_transactions
+    simplified_transactions = transactions[['Insider', 'Position', 'Shares', 'Transaction', 'Start Date', 'Value', 'Ownership', 'Text']].to_dict(orient='records')
+                              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Insider', 'Position', 'Shares', 'Transaction', 'Start Date', 'Value',\n       'Ownership', 'Text'],\n      dtype='object')] are in the [columns]"
+
+2025-03-07T09:02:50.594Z error: Failed to fetch insider transactions: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py insider gme
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GME?modules=institutionOwnership%2CfundOwnership%2CmajorDirectHolders%2CmajorHoldersBreakdown%2CinsiderTransactions%2CinsiderHolders%2CnetSharePurchaseActivity&corsDomain=finance.yahoo.com&formatted=false&crumb=
+Columns in transactions DataFrame for gme: []
+'Start Date' column not found in transactions DataFrame for gme
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 250, in <module>
+    result = fetch_insider_transactions(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 209, in fetch_insider_transactions
+    simplified_transactions = transactions[['Insider', 'Position', 'Shares', 'Transaction', 'Start Date', 'Value', 'Ownership', 'Text']].to_dict(orient='records')
+                              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Insider', 'Position', 'Shares', 'Transaction', 'Start Date', 'Value',\n       'Ownership', 'Text'],\n      dtype='object')] are in the [columns]"
+
+2025-03-07T09:02:56.543Z error: Error parsing JSON output for insider f: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:02:56.543Z error: Failed to fetch insider transactions for f: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:02:56.544Z error: Failed to fetch insider transactions: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:04:35.966Z error: Error parsing JSON output for insider aapl: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:04:35.966Z error: Failed to fetch insider transactions for aapl: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:04:35.966Z error: Failed to fetch insider transactions: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:06:54.086Z error: Error parsing JSON output for insider f: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:06:54.086Z error: Failed to fetch insider transactions for f: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:06:54.086Z error: Failed to fetch insider transactions: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:08:05.196Z error: Error parsing JSON output for insider f: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:08:05.196Z error: Failed to fetch insider transactions for f: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:08:05.196Z error: Failed to fetch insider transactions: Unexpected token 'N', ..." "Value": NaN, "Owne"... is not valid JSON
+2025-03-07T09:14:45.450Z error: Error executing Python script for peers f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 252, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 218, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T09:14:45.451Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 252, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 218, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T09:14:45.452Z error: Failed to fetch peer comparison for f: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 252, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 218, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T09:14:45.452Z error: Failed to fetch peer comparison: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers f
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 252, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 218, in fetch_peer_comparison
+    peers = stock.get_peers()
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Ticker' object has no attribute 'get_peers'. Did you mean: 'get_news'?
+
+2025-03-07T09:19:02.861Z error: Error executing Python script for peers ba: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers ba
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'To Grade'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 257, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 223, in fetch_peer_comparison
+    peer_symbols = recommendations['To Grade'].unique().tolist()
+                   ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'To Grade'
+
+2025-03-07T09:19:02.863Z error: stderr: Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'To Grade'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 257, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 223, in fetch_peer_comparison
+    peer_symbols = recommendations['To Grade'].unique().tolist()
+                   ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'To Grade'
+
+2025-03-07T09:19:02.863Z error: Failed to fetch peer comparison for ba: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers ba
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'To Grade'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 257, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 223, in fetch_peer_comparison
+    peer_symbols = recommendations['To Grade'].unique().tolist()
+                   ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'To Grade'
+
+2025-03-07T09:19:02.864Z error: Failed to fetch peer comparison: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers ba
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'To Grade'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 257, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 223, in fetch_peer_comparison
+    peer_symbols = recommendations['To Grade'].unique().tolist()
+                   ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'To Grade'
+
+2025-03-07T09:22:34.036Z error: Error executing Python script for peers aapl: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers aapl
+500 Server Error: INKApi Error for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAPL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=AAPL&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 253, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 218, in fetch_peer_comparison
+    info = stock.info
+           ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T09:22:34.036Z error: stderr: 500 Server Error: INKApi Error for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAPL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=AAPL&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 253, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 218, in fetch_peer_comparison
+    info = stock.info
+           ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T09:22:34.037Z error: Failed to fetch peer comparison for aapl: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers aapl
+500 Server Error: INKApi Error for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAPL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=AAPL&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 253, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 218, in fetch_peer_comparison
+    info = stock.info
+           ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T09:22:34.037Z error: Failed to fetch peer comparison: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py peers aapl
+500 Server Error: INKApi Error for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAPL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=AAPL&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 253, in <module>
+    result = fetch_peer_comparison(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 218, in fetch_peer_comparison
+    info = stock.info
+           ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T09:26:28.157Z error: Error parsing JSON output for peers fox: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:26:28.157Z error: Failed to fetch peer comparison for fox: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:26:28.158Z error: Failed to fetch peer comparison: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:26:32.783Z error: Error parsing JSON output for peers aapl: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:26:32.783Z error: Failed to fetch peer comparison for aapl: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:26:32.783Z error: Failed to fetch peer comparison: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:26:37.400Z error: Error parsing JSON output for peers f: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:26:37.400Z error: Failed to fetch peer comparison for f: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:26:37.400Z error: Failed to fetch peer comparison: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:30:40.524Z error: Error parsing JSON output for peers aapl: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:30:40.524Z error: Failed to fetch peer comparison for aapl: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:30:40.525Z error: Failed to fetch peer comparison: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:39:46.684Z error: Error parsing JSON output for peers ba: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:39:46.685Z error: Failed to fetch peer comparison for ba: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:39:46.685Z error: Failed to fetch peer comparison: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:44:21.605Z error: Error parsing JSON output for peers aapl: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:44:21.606Z error: Failed to fetch peer comparison for aapl: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T09:44:21.606Z error: Failed to fetch peer comparison: Unexpected non-whitespace character after JSON at position 3 (line 2 column 1)
+2025-03-07T10:13:56.084Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:13:56.084Z error: stderr: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:13:56.085Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:13:56.085Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:03.541Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NFLX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NFLX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:03.541Z error: stderr: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NFLX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NFLX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:03.542Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NFLX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NFLX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:03.542Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT,FDX,AAL: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NFLX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NFLX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:05.900Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NFLX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NFLX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:05.900Z error: stderr: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NFLX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NFLX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:05.901Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NFLX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NFLX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:05.901Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NFLX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NFLX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:24.554Z error: Error executing Python script for price TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/TSLA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=TSLA&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:24.554Z error: stderr: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/TSLA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=TSLA&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:24.554Z error: Failed to fetch quote for TSLA: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/TSLA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=TSLA&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:24.555Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price TSLA
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/TSLA?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=TSLA&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:24.974Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:24.975Z error: stderr: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:24.975Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:29.143Z error: Error executing Python script for price NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NFLX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NFLX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:29.144Z error: stderr: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NFLX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NFLX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:14:29.144Z error: Failed to fetch quote for NFLX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price NFLX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NFLX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NFLX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:19:17.019Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:19:17.019Z error: stderr: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:19:17.020Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:19:17.020Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:33:04.042Z error: Error executing Python script for price FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:33:04.043Z error: stderr: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:33:04.044Z error: Failed to fetch quote for FOX: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+
+2025-03-07T10:33:04.044Z error: Failed to fetch watchlist data for TSLA,FOX,NFLX,MSFT: Command failed: /Users/vincentlusco/STOCKBOX_Version_1/venv/bin/python3 /Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py price FOX
+401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/FOX?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=FOX&crumb=
+Traceback (most recent call last):
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 221, in <module>
+    result = fetch_stock_price(symbol)
+  File "/Users/vincentlusco/STOCKBOX_Version_1/server/scripts/fetch_stock_data.py", line 33, in fetch_stock_price
+    "fiftyTwoWeekHigh": stock.info["fiftyTwoWeekHigh"],
+                        ^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/base.py", line 232, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 508, in info
+    self._fetch_info(self.proxy)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/vincentlusco/STOCKBOX_Version_1/venv/lib/python3.13/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result.update(self._fetch_additional_info(proxy))
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+

@@ -194,52 +194,32 @@ export const formatInfo = (data) => {
 Company: ${data.name}
 Sector: ${data.sector || 'N/A'}
 Industry: ${data.industry || 'N/A'}
-Employees: ${data.employees ? formatNumber(data.employees, 0) : 'N/A'}
-`.trim();
+Employees: ${data.employees ? data.employees.toLocaleString() : 'N/A'}
+`.trim().replace(/\n/g, '<br>');
 };
 
 /**
  * Formats insider transaction data
  */
 export const formatInsider = (data) => {
-    if (!data?.data) return 'No insider data available';
+    if (!data?.transactions) return 'No insider data available';
     
-    const { transactions, holders } = data.data;
-    
-    const recentTransactions = transactions.slice(0, 5).map(trans => 
-        `${trans.name} (${trans.title})
-Date: ${formatDate(trans.date)}
-${trans.type}: ${formatNumber(trans.shares)} shares
-Value: ${formatCurrency(trans.value, true)}`
-    ).join('\n\n');
+    const recentTransactions = data.transactions.slice(0, 5).map(trans => 
+        `${trans.Insider} (${trans.Position}):<br>
+        Shares: ${trans.Shares.toLocaleString()}<br>
+        Transaction: ${trans.Transaction || 'Unknown'}<br>
+        Date: ${trans.StartDate}<br>
+        Value: $${trans.Value.toLocaleString()}<br>
+        Ownership: ${trans.Ownership}`
+    ).join('<br><br>');
 
-    const topHolders = holders.slice(0, 3).map(holder =>
-        `${holder.name} (${holder.title})
-Position: ${formatNumber(holder.position)} shares`
-    ).join('\n\n');
-
-    return `Recent Insider Transactions:
-${recentTransactions}
-
-Top Insider Holders:
-${topHolders}`;
+    return `Recent Insider Transactions:<br>${recentTransactions}`;
 };
 
 /**
- * Formats peer comparison data
+ * Formats help message
  */
-export const formatPeerComparison = (data) => {
-    if (!data?.data) return 'No peer comparison data available';
-    
-    return `PEER COMPARISON:
-${data.data.companies.map(peer => `
-${peer.symbol}
-Market Cap: ${formatCurrency(peer.marketCap, true)}
-P/E Ratio: ${formatNumber(peer.peRatio)}
-Revenue Growth: ${formatPercent(peer.revenueGrowth)}
-Profit Margin: ${formatPercent(peer.profitMargin)}`).join('\n')}`.trim();
+export const formatHelpMessage = (message) => {
+    return message.trim().replace(/\n/g, '<br>');
 };
 
-export const formatHelpMessage = (message) => {
-    return message.replace(/\n/g, '<br>');
-};

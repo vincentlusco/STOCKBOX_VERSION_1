@@ -1,5 +1,5 @@
-import { fetchStockPrice, fetchStockFundamentals, fetchStockTechnical, fetchStockNews, fetchStockDividends, fetchStockEarnings } from '../fetchers/stockFetcher';
-import { formatPrice, formatFundamentals, formatTechnical, formatNews, formatDividends, formatEarnings, formatHelpMessage } from '../formatters/stockFormatter';
+import { fetchStockPrice, fetchStockFundamentals, fetchStockTechnical, fetchStockNews, fetchStockDividends, fetchStockEarnings, fetchCompanyInfo, fetchInsiderTransactions } from '../fetchers/stockFetcher';
+import { formatPrice, formatFundamentals, formatTechnical, formatNews, formatDividends, formatEarnings, formatHelpMessage, formatInfo, formatInsider } from '../formatters/stockFormatter';
 
 let watchlist = [];
 
@@ -131,10 +131,38 @@ EARN <SYMBOL> - Get the earnings data for a stock (e.g., EARN AAPL)
 DIV <SYMBOL> - Get the dividends data for a stock (e.g., DIV AAPL)
 FUND <SYMBOL> - Get the fundamentals of a stock (e.g., FUND AAPL)
 TECH <SYMBOL> - Get the technical analysis of a stock (e.g., TECH AAPL)
+INFO <SYMBOL> - Get the company information (e.g., INFO AAPL)
+INSIDER <SYMBOL> - Get the insider transactions (e.g., INSIDER AAPL)
             `.trim();
             return formatHelpMessage(message);
         }
-    }
+    },
+    INFO: {
+        description: 'Get company information',
+        example: 'INFO AAPL',
+        handler: async (symbol) => {
+            if (!symbol) return 'ERROR: SYMBOL IS REQUIRED';
+            try {
+                const data = await fetchCompanyInfo(symbol);
+                return formatInfo(data);
+            } catch (error) {
+                return `ERROR: ${error.message}`;
+            }
+        }
+    },
+    INSIDER: {
+        description: 'Get insider transactions',
+        example: 'INSIDER AAPL',
+        handler: async (symbol) => {
+            if (!symbol) return 'ERROR: SYMBOL IS REQUIRED';
+            try {
+                const data = await fetchInsiderTransactions(symbol);
+                return formatInsider(data);
+            } catch (error) {
+                return `ERROR: ${error.message}`;
+            }
+        }
+    },
 };
 
 export default STOCK_COMMANDS;
