@@ -1,0 +1,25 @@
+.settings-container {
+    padding: 20px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    min-height: 100vh;
+}
+
+.settings-option {
+    margin-bottom: 20px;
+}
+
+.settings-option label {
+    margin-right: 10px;
+}
+
+.settings-option select,
+.settings-option input[type="color"],
+.settings-option input[type="text"] {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 5px;
+    font-family: 'Share Tech Mono', monospace;
+    text-transform: uppercase;
+}

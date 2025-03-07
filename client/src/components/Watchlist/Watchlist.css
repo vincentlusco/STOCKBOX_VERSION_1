@@ -4,30 +4,33 @@
     margin: 20px 0;
     font-size: 18px;
     text-align: center;
+        border: 1px solid var(--border-color);
+
 }
 
 .watchlist-table th, .watchlist-table td {
-    border: 1px solid #00FF00;
+    border: 1px solid var(--border-color);
     padding: 8px;
 }
 
 .watchlist-table th {
-    background-color: #00FF00;
-    color: black;
+    background-color: var(--border-color);
+    color: var(--background-color);
+
 }
 
 .watchlist-table tr:nth-child(even) {
-    background-color: black;
+    background-color: var(--background-color);
 }
 
 .watchlist-table tr:hover {
-    background-color: green;
+    background-color: rgba(128,128,128,0.2);
 }
 
 .positive {
-    color: #00FF00;
+    color: var(--text-color);
 }
 
 .negative {
-    color: red;
+    color: var(--text-color);
 }

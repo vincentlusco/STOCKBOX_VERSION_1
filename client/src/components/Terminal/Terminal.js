@@ -1,76 +1,79 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { STOCK_COMMANDS } from '../../services/securities/commands/stockCommands';
+import React, { useState, useRef, useContext } from 'react';
 import styled from 'styled-components';
+import { ThemeContext } from '../../context/ThemeContext';
+import './Terminal.css';
 
 const TerminalContainer = styled.div`
-  position: fixed;
-  top: 80px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 20px;
-  background-color: var(--terminal-black);
+    height: 100vh;
+    width: 100%;
+    background-color: ${(props) => props.theme.background};
+    color: ${(props) => props.theme.textColor};
+    font-family: 'Share Tech Mono', monospace;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 `;
 
 const TerminalWindow = styled.div`
-  border: 1px solid #00FF00;
-  box-shadow: 0 0 10px #00FF00;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: var(--terminal-black);
+    border: 1px solid ${(props) => props.theme.borderColor};
+    box-shadow: 0 0 10px ${(props) => props.theme.borderColor};
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: ${(props) => props.theme.background};
 `;
 
 const TerminalContent = styled.div`
-  flex-grow: 1;
-  overflow-y: auto;
-  padding: 20px;
-  padding-bottom: 60px;
-  text-transform: uppercase;
-  
-  &::-webkit-scrollbar {
-    width: 8px;
-  }
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+    
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
 
-  &::-webkit-scrollbar-track {
-    background: #000000;
-  }
+    &::-webkit-scrollbar-track {
+        background: ${(props) => props.theme.background};
+    }
 
-  &::-webkit-scrollbar-thumb {
-    background: #00FF00;
-    border: 1px solid #00FF00;
-  }
+    &::-webkit-scrollbar-thumb {
+        background: ${(props) => props.theme.borderColor};
+        border: 1px solid ${(props) => props.theme.borderColor};
+    }
 `;
 
 const TerminalInput = styled.div`
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 20px;
-  background-color: var(--terminal-black);
-  border-top: 1px solid #00FF00;
-  text-transform: uppercase;
-
-  input {
-    width: 100%;
-    background: transparent;
-    border: none;
-    color: #00FF00;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 16px;
-    outline: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: ${(props) => props.theme.background};
+    border-top: 1px solid ${(props) => props.theme.borderColor};
     text-transform: uppercase;
-  }
+
+    input {
+        width: 100%;
+        background: transparent;
+        border: none;
+        color: ${(props) => props.theme.textColor};
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 16px;
+        outline: none;
+        text-transform: uppercase;
+    }
 `;
 
 const LoadingAnimation = styled.div`
-  font-family: 'Share Tech Mono', monospace;
-  color: #00FF00;
-  animation: blink 1s step-end infinite;
+    font-family: 'Share Tech Mono', monospace;
+    color: ${(props) => props.theme.textColor};
+    animation: blink 1s step-end infinite;
 
-  @keyframes blink {_
-}
+    @keyframes blink {
+        50% { opacity: 0; }
+    }
 `;
 
 const Terminal = ({ handleCommand }) => {
@@ -78,6 +81,7 @@ const Terminal = ({ handleCommand }) => {
     const [inputValue, setInputValue] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const terminalRef = useRef(null);
+    const { theme } = useContext(ThemeContext);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -101,9 +105,9 @@ const Terminal = ({ handleCommand }) => {
     };
 
     return (
-        <TerminalContainer>
-            <TerminalWindow>
-                <TerminalContent ref={terminalRef}>
+        <TerminalContainer theme={theme}>
+            <TerminalWindow theme={theme}>
+                <TerminalContent theme={theme} ref={terminalRef}>
                     {history.map((entry, index) => (
                         <div key={index} className={`terminal-${entry.type}`}>
                             {entry.type === 'output' ? (
@@ -113,9 +117,9 @@ const Terminal = ({ handleCommand }) => {
                             )}
                         </div>
                     ))}
-                    {isLoading && <LoadingAnimation>loading...</LoadingAnimation>}
+                    {isLoading && <LoadingAnimation theme={theme}>loading...</LoadingAnimation>}
                 </TerminalContent>
-                <TerminalInput>
+                <TerminalInput theme={theme}>
                     <form onSubmit={handleSubmit}>
                         <input
                             type="text"

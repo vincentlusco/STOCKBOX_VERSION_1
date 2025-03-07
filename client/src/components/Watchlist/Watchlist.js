@@ -1,9 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import styled from 'styled-components';
+import { ThemeContext } from '../../context/ThemeContext';
 import './Watchlist.css'; // Assuming you have a CSS file for the Watchlist component
 import { fetchWatchlistData } from '../../services/securities/fetchers/watchlistFetcher';
 import { formatWatchlistData } from '../../services/securities/formatters/watchlistFormatter';
 
+const WatchlistContainer = styled.div`
+    padding: 20px;
+    color: ${(props) => props.theme.textColor};
+    background-color: ${(props) => props.theme.background};
+    border: 1px solid ${(props) => props.theme.borderColor};
+    min-height: 90vh;
+`;
+
 const Watchlist = ({ watchlist }) => {
+    const { theme } = useContext(ThemeContext);
     const [stockData, setStockData] = useState([]);
 
     useEffect(() => {
@@ -29,7 +40,7 @@ const Watchlist = ({ watchlist }) => {
     }, [watchlist]);
 
     return (
-        <div className="watchlist-container">
+        <WatchlistContainer theme={theme}>
             <h1>Watchlist</h1>
             <table className="watchlist-table">
                 <thead>
@@ -61,7 +72,7 @@ const Watchlist = ({ watchlist }) => {
                     ))}
                 </tbody>
             </table>
-        </div>
+        </WatchlistContainer>
     );
 };
 

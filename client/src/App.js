@@ -5,10 +5,10 @@ import TerminalPage from './pages/TerminalPage';
 import WatchlistPage from './pages/WatchlistPage';
 import ChartPage from './pages/ChartPage';
 import Help from './pages/Help';
+import SettingsPage from './pages/SettingsPage';
 import './styles/global.css';
 import { STOCK_COMMANDS } from './services/securities/commands/stockCommands';
-
-const WATCHLIST_KEY = 'stockbox_watchlist';
+import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
   const [watchlist, setWatchlist] = useState(['TSLA', 'FOX', 'NFLX', 'MSFT']); // Initial watchlist
@@ -31,20 +31,23 @@ function App() {
   };
 
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <main>
-          <Routes>
-            <Route path="/" element={<TerminalPage handleCommand={handleCommand} />} />
-            <Route path="/terminal" element={<TerminalPage handleCommand={handleCommand} />} />
-            <Route path="/watchlist" element={<WatchlistPage watchlist={watchlist} />} />
-            <Route path="/chart" element={<ChartPage />} />
-            <Route path="/help" element={<Help />} />
-          </Routes>
-        </main>
-      </div>
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <div className="App">
+          <Header />
+          <main>
+            <Routes>
+              <Route path="/" element={<TerminalPage handleCommand={handleCommand} />} />
+              <Route path="/terminal" element={<TerminalPage handleCommand={handleCommand} />} />
+              <Route path="/watchlist" element={<WatchlistPage watchlist={watchlist} />} />
+              <Route path="/chart" element={<ChartPage />} />
+              <Route path="/help" element={<Help />} />
+              <Route path="/settings" element={<SettingsPage />} />
+            </Routes>
+          </main>
+        </div>
+      </Router>
+    </ThemeProvider>
   );
 }
 
