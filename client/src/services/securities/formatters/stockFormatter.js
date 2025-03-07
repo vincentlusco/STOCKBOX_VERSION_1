@@ -55,51 +55,63 @@ export const formatTechnical = (data) => {
     console.log('Formatting technical data:', data);
 
     const latestSMA = data.sma ? data.sma[data.sma.length - 1] : null;
+    const smaSummary = data.sma ? data.sma.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
+
     const latestEMA = data.ema ? data.ema[data.ema.length - 1] : null;
+    const emaSummary = data.ema ? data.ema.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
+
     const latestRSI = data.rsi ? data.rsi[data.rsi.length - 1] : null;
-    const latestVolume = data.volume ? data.volume[data.volume.length - 1] : null;
+    const rsiSummary = data.rsi ? data.rsi.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
+
     const latestBollingerUpper = data.bollingerBands ? data.bollingerBands.upper[data.bollingerBands.upper.length - 1] : null;
     const latestBollingerLower = data.bollingerBands ? data.bollingerBands.lower[data.bollingerBands.lower.length - 1] : null;
-    const latestMACD = data.macd ? data.macd[data.macd.length - 1] : null;
-    const latestStochastic = data.stochastic ? data.stochastic[data.stochastic.length - 1] : null;
-    const latestATR = data.atr ? data.atr[data.atr.length - 1] : null;
-    const latestParabolicSAR = data.parabolicSAR ? data.parabolicSAR[data.parabolicSAR.length - 1] : null;
-    const latestADX = data.adx ? data.adx[data.adx.length - 1] : null;
+    const bollingerBandsUpperSummary = data.bollingerBands ? data.bollingerBands.upper.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
+    const bollingerBandsLowerSummary = data.bollingerBands ? data.bollingerBands.lower.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
 
-    const smaSummary = data.sma ? data.sma.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
-    const emaSummary = data.ema ? data.ema.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
-    const rsiSummary = data.rsi ? data.rsi.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
-    const volumeSummary = data.volume ? data.volume.slice(-5).map(value => value.toLocaleString()).join(', ') : 'N/A';
-    const bollingerBandsSummary = data.bollingerBands ? data.bollingerBands.upper.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
+    const latestMACD = data.macd ? data.macd[data.macd.length - 1] : null;
     const macdSummary = data.macd ? data.macd.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
+
+    const latestStochastic = data.stochastic ? data.stochastic[data.stochastic.length - 1] : null;
     const stochasticSummary = data.stochastic ? data.stochastic.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
+
+    const latestATR = data.atr ? data.atr[data.atr.length - 1] : null;
     const atrSummary = data.atr ? data.atr.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
+
+    const latestParabolicSAR = data.parabolicSAR ? data.parabolicSAR[data.parabolicSAR.length - 1] : null;
     const parabolicSARSummary = data.parabolicSAR ? data.parabolicSAR.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
+
+    const latestADX = data.adx ? data.adx[data.adx.length - 1] : null;
     const adxSummary = data.adx ? data.adx.filter(value => value !== null).slice(-5).map(value => value.toFixed(2)).join(', ') : 'N/A';
 
     return `
 ${data.symbol} TECHNICAL DATA
 ========================
 Latest SMA: ${latestSMA ? latestSMA.toFixed(2) : 'N/A'}
-Latest EMA: ${latestEMA ? latestEMA.toFixed(2) : 'N/A'}
-Latest RSI: ${latestRSI ? latestRSI.toFixed(2) : 'N/A'}
-Latest Volume: ${latestVolume ? latestVolume.toLocaleString() : 'N/A'}
-Latest Bollinger Bands: ${latestBollingerUpper ? latestBollingerUpper.toFixed(2) : 'N/A'} / ${latestBollingerLower ? latestBollingerLower.toFixed(2) : 'N/A'}
-Latest MACD: ${latestMACD ? latestMACD.toFixed(2) : 'N/A'}
-Latest Stochastic: ${latestStochastic ? latestStochastic.toFixed(2) : 'N/A'}
-Latest ATR: ${latestATR ? latestATR.toFixed(2) : 'N/A'}
-Latest Parabolic SAR: ${latestParabolicSAR ? latestParabolicSAR.toFixed(2) : 'N/A'}
-Latest ADX: ${latestADX ? latestADX.toFixed(2) : 'N/A'}
-
 Recent SMA: ${smaSummary}
+
+Latest EMA: ${latestEMA ? latestEMA.toFixed(2) : 'N/A'}
 Recent EMA: ${emaSummary}
+
+Latest RSI: ${latestRSI ? latestRSI.toFixed(2) : 'N/A'}
 Recent RSI: ${rsiSummary}
-Recent Volume: ${volumeSummary}
-Recent Bollinger Bands: ${bollingerBandsSummary}
+
+Latest Bollinger Bands: ${latestBollingerUpper ? latestBollingerUpper.toFixed(2) : 'N/A'} / ${latestBollingerLower ? latestBollingerLower.toFixed(2) : 'N/A'}
+Recent Bollinger Bands Upper: ${bollingerBandsUpperSummary}
+Recent Bollinger Bands Lower: ${bollingerBandsLowerSummary}
+
+Latest MACD: ${latestMACD ? latestMACD.toFixed(2) : 'N/A'}
 Recent MACD: ${macdSummary}
+
+Latest Stochastic: ${latestStochastic ? latestStochastic.toFixed(2) : 'N/A'}
 Recent Stochastic: ${stochasticSummary}
+
+Latest ATR: ${latestATR ? latestATR.toFixed(2) : 'N/A'}
 Recent ATR: ${atrSummary}
+
+Latest Parabolic SAR: ${latestParabolicSAR ? latestParabolicSAR.toFixed(2) : 'N/A'}
 Recent Parabolic SAR: ${parabolicSARSummary}
+
+Latest ADX: ${latestADX ? latestADX.toFixed(2) : 'N/A'}
 Recent ADX: ${adxSummary}
 `.trim().replace(/\n/g, '<br>');
 };

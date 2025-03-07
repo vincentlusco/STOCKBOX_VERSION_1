@@ -37,7 +37,7 @@ router.get('/:symbol/tech', async (req, res) => {
         const { symbol } = req.params;
         logger.info(`Fetching technicals for ${symbol}`);
         const data = await yahooFinance.getTechnicals(symbol);
-        res.json({ data });
+        res.json(data); // Adjusted to return raw data
     } catch (error) {
         logger.error('Failed to fetch technical data:', error);
         res.status(500).json({ error: 'Failed to fetch technical data', details: error.message });
